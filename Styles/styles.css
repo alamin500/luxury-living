@@ -1,0 +1,164 @@
+.hero-section{
+ display: flex;
+ align-items: center;
+ width: 1200px;
+ margin: 0 auto;
+     padding: 50px 0;
+}
+.section-color{
+ background-color: wheat;
+ padding: 100px 0;
+}
+/* .hero-section + div{
+ margin: 80px;
+} */
+.hero-section > div{
+ width: 50%;
+}
+.hero-section img{
+ height: 502px;
+ width: 100%;
+}
+.hero-content h1{
+ font-size: 60px;
+}
+.hero-content{
+    padding: 0 100px 0 0;
+}
+button {
+  background-color: #123813; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/*-------------------------------- Discover Section------------------------  */
+.discover-title{
+ text-align: center;
+ margin-top: 80px !important;
+     max-width: 400px;
+    margin: 0 auto;
+}
+.discover-title h1{
+font-size: 27px;
+}
+.discover-content{
+ display: flex;
+ justify-content: center;
+ height: 483px;
+
+}
+
+.discover-content div{
+margin: 10px;
+    text-align: center;
+
+}
+.discover-content img{
+ width: 368px;
+ height: 368px;
+}
+.location-icon{
+     width: 20px !important;
+    height: 20px !important;
+}
+
+/* ----------------------Services Section -------------------------- */
+.service-content img{
+height: 90px;
+width: 90px;
+}
+.service-content{
+ display: flex;
+ justify-content: center;
+ margin-top: 40px;
+}
+.service-content p{
+width: 265px;
+    margin: 0 auto;
+}
+.service-content > div{
+ height: 368px;
+ width: 368px;
+ text-align: center;
+ margin: 12px;
+}
+
+/*--------------------------- Testimonials Section -------------------------- */
+.testimonials-section{
+ display: flex;
+ justify-content: center
+}
+.testimonials-content{
+    width: 367px;
+    height: 287px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.testimonials-content > div{
+padding: 50px;
+}
+.testimonials-img{
+ display: flex;
+}
+.testimonials-img p,h3{
+ margin: 10px;
+}
+.testimonials-img img{
+     width: 64px;
+    height: 64px;
+}
+.star-img img{
+ height: 24px;
+}
+.testimonials-title{
+ text-align: center;
+}
+
+input{
+   width: 370px;
+   height: 60px;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #d1d1d1;
+}
+.massege-input{
+ height: 157px;
+ width: 760px;
+}
+.input-content{
+ text-align: center;
+}
+.submit{
+    width: 200px;
+    background-color: #3d3ea4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*------------------ Footer ---------------------- */
+.footer-content{
+ display: flex;
+ justify-content: center;
+
+}
+.footer-about{
+ width: 350px;
+}
+.footer-list{
+ width: 150px;
+}
